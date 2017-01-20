@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "384496978906",
+    "firebase_url": "https://johndemoapp-a0e70.firebaseio.com",
+    "project_id": "johndemoapp-a0e70",
+    "storage_bucket": "johndemoapp-a0e70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384496978906:android:5c97ed6fb8d75df2",
+        "android_client_info": {
+          "package_name": "com.demoapp.john.johndemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384496978906-mgq9svae7rj7617sn2gltje45pi8ch93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYNllAwwL53ERMGlbyYnVx8zivG3HfHDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

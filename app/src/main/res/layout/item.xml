@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cardplus"
+    android:id="@+id/cv"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:id="@+id/image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/awuah"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="Bankye"
+            android:layout_toRightOf="@+id/image"
+            android:layout_alignParentTop="true"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="GH₵ 20"
+            android:textColor="@color/colorAccent"
+            android:layout_toRightOf="@+id/image"
+            android:layout_below="@+id/name"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
